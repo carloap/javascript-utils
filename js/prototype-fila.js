@@ -1,6 +1,9 @@
 /**
- * Função para controlar filas. 
- * Enfileira variáveis em uma array para serem usadas posteriormente, numa determinada sequência.
+ * Função para controlar variáveis em filas.
+ * Enfileira variáveis em uma array para serem usadas posteriormente, numa sequência FIFO.
+ * @author carloap
+ * @since 31/12/2016
+ * @version 0.1
  */
 function ControleDeFila() {
     this._fila = new Array();
@@ -46,3 +49,4 @@ ControleDeFila.prototype.getTamanho = function() {
 ControleDeFila.prototype.resetar = function() {
     this._fila=new Array();
 };
+// Fim do arquivo
